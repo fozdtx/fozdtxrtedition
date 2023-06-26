@@ -1,0 +1,76 @@
+body {
+    color:white;
+    background-image: linear-gradient(to bottom right , black 70%, white, lime);
+    background-attachment: fixed;
+    user-select: none;
+    color: white;
+    text-shadow: 0px 0px 5px black;
+    font-family: arial;
+}
+
+.nav{
+  font-size: 50px;
+  text-shadow: 3px 3px 0px #6194A9;
+  color: black;
+  
+}
+
+h1{
+ font-size: 60px; 
+ font-family: 'fly';
+ color: white;
+ text-shadow: 3px 3px grey;
+}
+p{
+  word-spacing: 5px;
+  padding: 10px;
+}
+.heading{
+  
+}
+.img-type-1{
+  width: 80%;
+  border: 2px solid whitesmoke;
+  padding: 5%;
+  margin: 5%;
+  box-shadow: 0px 0px 10px 5px whitesmoke;
+}
+
+.border-01{
+  padding: 5%;
+  margin: 5%;
+  border: 2px solid whitesmoke;
+  font-size: 30px;
+  font-weight:bold;
+}
+.btn-01{
+  background-color: lime;
+  color: white;
+  border: 5px solid lime;
+  border-radius: 10px;
+  padding: 10px;
+  height: 50px;
+  width: 150px;
+  font-weight: bold;
+  cursor: pointer;
+  transition-property: background, border;
+  transition-timing-function: 1;
+  transition-duration: 0.5s;
+}
+.btn-01:hover{
+  background-color: green;
+  color: white;
+  border-color: green;
+}
+.btn-01:active{
+  background-image: linear-gradient(to bottom right, dimgrey, white, dimgrey, white, dimgrey);
+  border: 0px solid transparent;
+  
+  cursor: progress;
+}
+.btn-01:focus {
+  background-image: linear-gradient(to bottom right, dimgrey, white, dimgrey, white, dimgrey);
+  border: 0px solid transparent;
+
+  cursor: progress;
+}
